@@ -85,7 +85,15 @@ black = "^23.12.1"
 yahoofinancials = "^1.20"
 pyarrow = "^15.0.0"
 fastparquet = "^2023.10.1"
-
+transformers = "^4.37.1"
+gluonts = "^0.14.3"
+ipykernel = "^6.29.0"
+matplotlib = "^3.8.2"
+ipywidgets = "^8.1.1"
+torch = ">=2.0.0, !=2.0.1, !=2.1.0"
+huggingface-hub = "^0.20.3"
+accelerate = "^0.26.1"
+evaluate = "^0.4.1"
 
 [build-system]
 requires = ["poetry-core"]

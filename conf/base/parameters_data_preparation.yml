@@ -6,7 +6,7 @@
 btc:
   quote_options:
     ticker: "BTC-USD"
-    ini: "20210101"
+    ini: "20140101"
     fim: "0"
 
 
