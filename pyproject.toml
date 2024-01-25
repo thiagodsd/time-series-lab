@@ -1,6 +1,6 @@
-[build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+# [build-system]
+# requires = ["setuptools"]
+# build-backend = "setuptools.build_meta"
 
 [project]
 name = "time_series_lab"
@@ -67,3 +67,21 @@ select = [
     "T201", # Print Statement
 ]
 ignore = ["E501"]  # Ruff format takes care of line-too-long
+
+[tool.poetry]
+name = "time-series-lab"
+version = "0.1.0"
+description = ""
+authors = ["dsthiago <thiagosd.2.18@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+kedro = "^0.19.2"
+kedro-viz = "^7.1.0"
+kedro-datasets = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
