@@ -1,0 +1,10 @@
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# parquet
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+btc.history_freq_1d:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/btc_raw_history_1d.parquet
+  metadata:
+    kedro-viz:
+      layer: raw

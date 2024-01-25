@@ -149,3 +149,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# custom
+data/01_raw/*.parquet

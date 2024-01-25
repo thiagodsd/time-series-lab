@@ -3,3 +3,15 @@
 #
 # Documentation for this file format can be found in "Parameters"
 # Link: https://docs.kedro.org/en/0.19.2/configuration/parameters.html
+btc:
+  quote_options:
+    ticker: "BTC-USD"
+    ini: "20210101"
+    fim: "0"
+
+
+eth:
+  quote_options:
+    ticker: "ETH-USD"
+    ini: "20210101"
+    fim: "0"
